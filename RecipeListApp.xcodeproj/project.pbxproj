@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176B2683269F5B9D0014BECA /* RecipeListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B2682269F5B9D0014BECA /* RecipeListAppApp.swift */; };
+		176B2685269F5B9D0014BECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B2684269F5B9D0014BECA /* ContentView.swift */; };
+		176B2687269F5BA00014BECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176B2686269F5BA00014BECA /* Assets.xcassets */; };
+		176B268A269F5BA00014BECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176B2689269F5BA00014BECA /* Preview Assets.xcassets */; };
+		176B2695269F5BA00014BECA /* RecipeListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B2694269F5BA00014BECA /* RecipeListAppTests.swift */; };
+		176B26A0269F5BA00014BECA /* RecipeListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B269F269F5BA00014BECA /* RecipeListAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176B2691269F5BA00014BECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176B2677269F5B9D0014BECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176B267E269F5B9D0014BECA;
+			remoteInfo = RecipeListApp;
+		};
+		176B269C269F5BA00014BECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176B2677269F5B9D0014BECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176B267E269F5B9D0014BECA;
+			remoteInfo = RecipeListApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176B267F269F5B9D0014BECA /* RecipeListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176B2682269F5B9D0014BECA /* RecipeListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListAppApp.swift; sourceTree = "<group>"; };
+		176B2684269F5B9D0014BECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		176B2686269F5BA00014BECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176B2689269F5BA00014BECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		176B268B269F5BA00014BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176B2690269F5BA00014BECA /* RecipeListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176B2694269F5BA00014BECA /* RecipeListAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListAppTests.swift; sourceTree = "<group>"; };
+		176B2696269F5BA00014BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176B269B269F5BA00014BECA /* RecipeListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176B269F269F5BA00014BECA /* RecipeListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListAppUITests.swift; sourceTree = "<group>"; };
+		176B26A1269F5BA00014BECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176B267C269F5B9D0014BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B268D269F5BA00014BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B2698269F5BA00014BECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176B2676269F5B9D0014BECA = {
+			isa = PBXGroup;
+			children = (
+				176B2681269F5B9D0014BECA /* RecipeListApp */,
+				176B2693269F5BA00014BECA /* RecipeListAppTests */,
+				176B269E269F5BA00014BECA /* RecipeListAppUITests */,
+				176B2680269F5B9D0014BECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176B2680269F5B9D0014BECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176B267F269F5B9D0014BECA /* RecipeListApp.app */,
+				176B2690269F5BA00014BECA /* RecipeListAppTests.xctest */,
+				176B269B269F5BA00014BECA /* RecipeListAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176B2681269F5B9D0014BECA /* RecipeListApp */ = {
+			isa = PBXGroup;
+			children = (
+				176B2682269F5B9D0014BECA /* RecipeListAppApp.swift */,
+				176B2684269F5B9D0014BECA /* ContentView.swift */,
+				176B2686269F5BA00014BECA /* Assets.xcassets */,
+				176B268B269F5BA00014BECA /* Info.plist */,
+				176B2688269F5BA00014BECA /* Preview Content */,
+			);
+			path = RecipeListApp;
+			sourceTree = "<group>";
+		};
+		176B2688269F5BA00014BECA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				176B2689269F5BA00014BECA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		176B2693269F5BA00014BECA /* RecipeListAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				176B2694269F5BA00014BECA /* RecipeListAppTests.swift */,
+				176B2696269F5BA00014BECA /* Info.plist */,
+			);
+			path = RecipeListAppTests;
+			sourceTree = "<group>";
+		};
+		176B269E269F5BA00014BECA /* RecipeListAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				176B269F269F5BA00014BECA /* RecipeListAppUITests.swift */,
+				176B26A1269F5BA00014BECA /* Info.plist */,
+			);
+			path = RecipeListAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176B267E269F5B9D0014BECA /* RecipeListApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176B26A4269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListApp" */;
+			buildPhases = (
+				176B267B269F5B9D0014BECA /* Sources */,
+				176B267C269F5B9D0014BECA /* Frameworks */,
+				176B267D269F5B9D0014BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeListApp;
+			productName = RecipeListApp;
+			productReference = 176B267F269F5B9D0014BECA /* RecipeListApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176B268F269F5BA00014BECA /* RecipeListAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176B26A7269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListAppTests" */;
+			buildPhases = (
+				176B268C269F5BA00014BECA /* Sources */,
+				176B268D269F5BA00014BECA /* Frameworks */,
+				176B268E269F5BA00014BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176B2692269F5BA00014BECA /* PBXTargetDependency */,
+			);
+			name = RecipeListAppTests;
+			productName = RecipeListAppTests;
+			productReference = 176B2690269F5BA00014BECA /* RecipeListAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		176B269A269F5BA00014BECA /* RecipeListAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176B26AA269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListAppUITests" */;
+			buildPhases = (
+				176B2697269F5BA00014BECA /* Sources */,
+				176B2698269F5BA00014BECA /* Frameworks */,
+				176B2699269F5BA00014BECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176B269D269F5BA00014BECA /* PBXTargetDependency */,
+			);
+			name = RecipeListAppUITests;
+			productName = RecipeListAppUITests;
+			productReference = 176B269B269F5BA00014BECA /* RecipeListAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176B2677269F5B9D0014BECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					176B267E269F5B9D0014BECA = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					176B268F269F5BA00014BECA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 176B267E269F5B9D0014BECA;
+					};
+					176B269A269F5BA00014BECA = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 176B267E269F5B9D0014BECA;
+					};
+				};
+			};
+			buildConfigurationList = 176B267A269F5B9D0014BECA /* Build configuration list for PBXProject "RecipeListApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 176B2676269F5B9D0014BECA;
+			productRefGroup = 176B2680269F5B9D0014BECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176B267E269F5B9D0014BECA /* RecipeListApp */,
+				176B268F269F5BA00014BECA /* RecipeListAppTests */,
+				176B269A269F5BA00014BECA /* RecipeListAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176B267D269F5B9D0014BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B268A269F5BA00014BECA /* Preview Assets.xcassets in Resources */,
+				176B2687269F5BA00014BECA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B268E269F5BA00014BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B2699269F5BA00014BECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176B267B269F5B9D0014BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B2685269F5B9D0014BECA /* ContentView.swift in Sources */,
+				176B2683269F5B9D0014BECA /* RecipeListAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B268C269F5BA00014BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B2695269F5BA00014BECA /* RecipeListAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176B2697269F5BA00014BECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176B26A0269F5BA00014BECA /* RecipeListAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176B2692269F5BA00014BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176B267E269F5B9D0014BECA /* RecipeListApp */;
+			targetProxy = 176B2691269F5BA00014BECA /* PBXContainerItemProxy */;
+		};
+		176B269D269F5BA00014BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176B267E269F5B9D0014BECA /* RecipeListApp */;
+			targetProxy = 176B269C269F5BA00014BECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		176B26A2269F5BA00014BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		176B26A3269F5BA00014BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176B26A5269F5BA00014BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeListApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecipeListApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176B26A6269F5BA00014BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RecipeListApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RecipeListApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		176B26A8269F5BA00014BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecipeListAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeListApp.app/RecipeListApp";
+			};
+			name = Debug;
+		};
+		176B26A9269F5BA00014BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecipeListAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecipeListApp.app/RecipeListApp";
+			};
+			name = Release;
+		};
+		176B26AB269F5BA00014BECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecipeListAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecipeListApp;
+			};
+			name = Debug;
+		};
+		176B26AC269F5BA00014BECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RecipeListAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BG.RecipeListAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecipeListApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176B267A269F5B9D0014BECA /* Build configuration list for PBXProject "RecipeListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B26A2269F5BA00014BECA /* Debug */,
+				176B26A3269F5BA00014BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176B26A4269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B26A5269F5BA00014BECA /* Debug */,
+				176B26A6269F5BA00014BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176B26A7269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B26A8269F5BA00014BECA /* Debug */,
+				176B26A9269F5BA00014BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176B26AA269F5BA00014BECA /* Build configuration list for PBXNativeTarget "RecipeListAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176B26AB269F5BA00014BECA /* Debug */,
+				176B26AC269F5BA00014BECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176B2677269F5B9D0014BECA /* Project object */;
+}
