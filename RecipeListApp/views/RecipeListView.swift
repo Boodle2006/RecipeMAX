@@ -12,7 +12,7 @@ import SwiftUI
 
 struct RecipeListView: View {
     
-    @ObservedObject var model = recipeModel()
+    @EnvironmentObject var model:recipeModel
     
     var body: some View {
         
