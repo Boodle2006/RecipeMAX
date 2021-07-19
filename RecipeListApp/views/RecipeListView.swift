@@ -17,22 +17,34 @@ struct RecipeListView: View {
     var body: some View {
         
         NavigationView {
-            List(model.recipes) { r in
+            VStack(alignment: .leading) {
                 
-                NavigationLink(
-                    destination: recipeDetailView(recipe: r),
-                    label: {
-                        HStack(spacing: 20.0) {
-                            Image(r.image).resizable().scaledToFill().frame(width: 50, height: 50, alignment: .center).clipped().cornerRadius(10.0)
-                            Text(r.name)
+                Text("All Recipes").bold().font(.largeTitle)
+                
+                ScrollView {
+                    
+                    LazyVStack(alignment: .leading) {
+                        
+                        ForEach(model.recipes) { r in
+                            
+                            NavigationLink(
+                                destination: recipeDetailView(recipe: r),
+                                label: {
+                                    HStack(spacing: 20.0) {
+                                        Image(r.image).resizable().scaledToFill().frame(width: 50, height: 50, alignment: .center).clipped().cornerRadius(10.0)
+                                        Text(r.name).foregroundColor(.black)
+                                        
+                                        
+                                    }
+                                })
                             
                             
-                        }
-                    })
-                
-                
-                
-            }.navigationTitle("All Recipes")
+                            
+                        }.navigationBarHidden(true)
+                        
+                    }.padding(.leading, 10)
+                }
+            }
         }
         
     }
@@ -41,5 +53,6 @@ struct RecipeListView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         RecipeListView()
+            .environmentObject(recipeModel())
     }
 }
