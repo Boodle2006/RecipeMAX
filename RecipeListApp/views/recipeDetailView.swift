@@ -9,13 +9,37 @@ import SwiftUI
 
 struct recipeDetailView: View {
     
+    @State var serving = 6
+    
     var recipe:Recipe
     
+    
     var body: some View {
+        
+        
         ScrollView {
+            
             VStack(alignment: .leading) {
+                
                 //MARK: recipe image
                 Image(recipe.image).resizable().scaledToFill()
+                
+                Text(recipe.name).bold().font(.largeTitle)
+                
+                //MARK: Picker
+                VStack {
+                Text("Select your serving size")
+                Picker("", selection: $serving, content: {
+                    
+                    Text("2").tag(2)
+                    Text("4").tag(4)
+                    Text("6").tag(6)
+                    Text("8").tag(8)
+                    
+                }).pickerStyle(SegmentedPickerStyle())
+                .frame(width: 160)
+                }
+                
                 
                 //MARK: recipe ingredients
                 
@@ -24,7 +48,7 @@ struct recipeDetailView: View {
                     
                     ForEach(recipe.ingredients) {
                         r in
-                        Text("• " + r.name).padding(.bottom, 3)
+                        Text("• " + recipeModel.Portion(ingredient: r, recipeServings: recipe.servings, targetServingSize: serving) + " " + r.name.lowercased()).padding(.bottom, 3)
                     }
                 }
                 
@@ -44,7 +68,7 @@ struct recipeDetailView: View {
                     
                 }
             }
-        }.navigationBarTitle(recipe.name)
+        }
     }
 }
 
@@ -53,7 +77,6 @@ struct recipeDetailView_Previews: PreviewProvider {
         
         //create a dummy recipe to pass into the detail view to see a preview
         
-        let model = recipeModel()
-        recipeDetailView(recipe: model.recipes[0])
+        recipeTabView()
     }
 }
